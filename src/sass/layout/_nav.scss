@@ -1,0 +1,20 @@
+ul {
+    
+    display: flex;
+    list-style-type: none;
+
+    &>li {
+        
+        margin-right: 15px;
+
+    }
+}
+.nav-item {
+
+    text-decoration: none;
+    color: #44f;
+
+    &:hover {
+        color: #fff;
+    }
+}
